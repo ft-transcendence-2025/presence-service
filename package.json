@@ -1,0 +1,32 @@
+{
+  "name": "presence-service",
+  "version": "1.0.0",
+  "description": "A real-time user presence tracking microservice for the Transcendence project. This service uses WebSockets and Redis to monitor which users are online and provides an API to query their presence status. It is designed to integrate seamlessly into a distributed, Fastify-based microservices architecture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ft-transcendence-2025/presence-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ft-transcendence-2025/presence-service/issues"
+  },
+  "homepage": "https://github.com/ft-transcendence-2025/presence-service#readme",
+  "dependencies": {
+    "@fastify/websocket": "^11.2.0",
+    "dotenv": "^17.2.1",
+    "fastify": "^5.4.0",
+    "ioredis": "^5.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
